@@ -1,0 +1,28 @@
+{
+  "name": "隐藏页面其他元素",
+  "description": "隐藏元素",
+  "version": "1.0",
+  "icons": {
+    "16": "./img/run.png",
+    "48": "./img/run.png",
+    "128": "./img/run.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "webNavigation",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "隐藏区块",
+    "default_icon": "./img/run.png"
+  },
+  "manifest_version": 2
+}
